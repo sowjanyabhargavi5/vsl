@@ -1,0 +1,1 @@
+print("practice of day one")
