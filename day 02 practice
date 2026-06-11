@@ -1,0 +1,18 @@
+#type conversions
+#implicit method
+a=100
+b=3.14
+c=a+b
+print(type(a))
+print(type(b))
+print(type(c))
+
+#explicit method
+a=200
+b=3.14
+a=float(a)
+b=int(b)
+print(type(a))
+print(type(b))
+print(a) 
+print(b)
