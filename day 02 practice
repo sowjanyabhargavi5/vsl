@@ -16,3 +16,14 @@ print(type(a))
 print(type(b))
 print(a) 
 print(b)
+
+
+-output in vscode looks like below:
+
+<class 'int'>
+<class 'float'>
+<class 'float'>
+<class 'float'>
+<class 'int'>
+200.0
+3
