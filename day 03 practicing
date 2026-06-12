@@ -1,0 +1,216 @@
+#OPERATORS AND EXPLAINAING THE COMMENTS AND ITS TYPES:
+# 1-ARTHEMETIC OPERATORS:
+
+'''1.ADDITION
+   2.SUBTRACTION
+   3.DIVISION
+   4.MULTIPLICATION
+   5.FLOORDIVISION
+   6.MODULO
+   7.EXPONENTIATION'''
+
+""" WE HAVE USED COMMENTS HERE
+1.SINGLE LINE COMMENT BY #
+2.MULTI LINE COMMENT BY (''')
+3.DOCUMENTATION STRING BY (""" """)"""
+
+#ASSIGNMENT OPERATORS:
+''' 1. (=) - Simple assignment
+    2. (+=) - Addition assignment
+    3. (-=) - Subtraction assignment
+    4. (*=) - Multiplication assignment
+    5. (/=) - Division assignment
+    6. (//=) - Floor division assignment
+    7. (%=) - Modulo assignment
+    8. (**=) - Exponentiation assignment '''
+
+#COMPARISON OPERATORS:
+'''1. (==) - Equal to
+   2. (!=) - Not equal to
+   3. (>) - Greater than
+   4. (<) - Less than
+   5. (>=) - Greater than or equal to
+   6. (<=) - Less than or equal to '''
+
+#LOGICAL OPERATORS:
+'''1. (and) - Logical AND
+   2. (or) - Logical OR
+   3. (not) - Logical NOT'''
+#membership operators:
+'''1. (in) - Checks if a value is present in a sequence
+   2. (not in) - Checks if a value is not present in a sequence'''
+
+#identity operators:
+'''1. (is) - Checks if two variables refer to the same object in memory
+   2. (is not) - Checks if two variables do not refer to the same object in memory'''
+
+#BITWISE OPERATORS:
+'''1. (&) - Bitwise AND
+   2. (|) - Bitwise OR
+   3. (^) - Bitwise XOR
+   4. (~) - Bitwise NOT
+   5. (<<) - Left shift
+   6. (>>) - Right shift'''
+
+#python operator precedence:
+'''1. Parentheses ( )
+    2. Exponentiation (**)
+    3. Unary plus,minus, and xor (+x, -x, ~x)
+    4. Multiplication, division, floor division, and modulo (*, /, //, %)
+    5. Addition and subtraction (+, -)
+    6. Bitwise shift operators (<<, >>)
+    7. Bitwise AND (&)
+    8. Bitwise XOR (^)
+    9. Bitwise OR (|)
+    10. Comparison operators (==, !=, >, <, >=, <=)
+    11. Identity operators (is, is not)
+    12. Membership operators (in, not in)
+    13. Logical NOT (not)
+    14. Logical AND (and)
+    15. Logical OR (or)'''
+
+
+#now coding practice with examples of operators:
+
+
+
+
+#1. ARTHEMETIC OPERATORS:
+a = 10
+b = 5
+c= a + b
+print("The sum of a and b is:", c)                                            #output: 15
+d = a - b
+print("The difference of a and b is:", d)                                     #output: 5
+e = a * b
+print("The product of a and b is:", e)                                        #output: 50
+f = a / b
+print("The division of a by b is:", f)                                        #output: 2.0
+g = a // b
+print("The floor division of a by b is:", g)                                  #output: 2
+h = a % b
+print("The modulo of a by b is:", h)                                          #output: 0
+i = a ** b
+print("The exponentiation of a to the power of b is:", i)                     #output: 100000
+
+
+#ASSIGNMENT OPERATORS:
+x = 10
+x += 5
+print("After addition assignment, x is:", x)                                  #output: 15
+x -= 3
+print("After subtraction assignment, x is:", x)                               #output: 12
+x *= 2
+print("After multiplication assignment, x is:", x)                            #output: 24
+x /= 4
+print("After division assignment, x is:", x)                                  #output: 6.0
+x //= 2
+print("After floor division assignment, x is:", x)                            #output: 3.0
+x %= 3
+print("After modulo assignment, x is:", x)                                    #output: 0.0
+x **= 2
+print("After exponentiation assignment, x is:", x)                            #output: 0.0
+
+
+#COMPARISON OPERATORS:
+p = 10
+q = 5
+print("Is p equal to q?", p == q)                                             #output: False
+print("Is p not equal to q?", p != q)                                         #output: True
+print("Is p greater than q?", p > q)                                          #output: True
+print("Is p less than q?", p < q)                                             #output: False
+print("Is p greater than or equal to q?", p >= q)                             #output: True
+print("Is p less than or equal to q?", p <= q)                                #output: False
+print("Is p greater than 5 and less than 15?", p > 5 and p < 15)              #output: True
+print("Is p less than 5 or greater than 15?", p < 5 or p > 15)                #output: False
+print("Is p not greater than 5?", not (p > 5))                                #output: False
+print("Is 3 in the list [1, 2, 3, 4, 5]?", 3 in [1, 2, 3, 4, 5])              #output: True
+print("Is 6 not in the list [1, 2, 3, 4, 5]?", 6 not in [1, 2, 3, 4, 5])      #output: True
+print("Is p the same object as q?", p is q)                                   #output: False
+print("Is p not the same object as q?", p is not q)                           #output: True              
+
+
+#LOGICAL OPERATORS:
+r = 10
+s = 5
+print("Is r greater than 5 and less than 15?", r > 5 and r < 15)              #output: True
+print("Is r less than 5 or greater than 15?", r < 5 or r > 15)                #output: False
+print("Is r not greater than 5?", not (r > 5))                                #output: False
+
+
+#MEMBERSHIP OPERATORS:
+print("Is 3 in the list [1, 2, 3, 4, 5]?", 3 in [1, 2, 3, 4, 5])              #output: True
+print("Is 6 not in the list [1, 2, 3, 4, 5]?", 6 not in [1, 2, 3, 4, 5])      #output: True
+
+
+#IDENTITY OPERATORS:
+t = 10
+u = 10
+print("Is t the same object as u?", t is u)                                   #output: True
+print("Is t not the same object as u?", t is not u)                           #output: False
+
+
+#BITWISE OPERATORS:
+m = 5  # In binary: 0101
+n = 3  # In binary: 0011
+print("Bitwise AND of m and n:", m & n)                                       # Output: 1 (0001)
+print("Bitwise OR of m and n:", m | n)                                        # Output: 7 (0111)
+print("Bitwise XOR of m and n:", m ^ n)                                       # Output: 6 (0110)
+print("Bitwise NOT of m:", ~m)                                                # Output: -6 (in binary: 1010)
+print("Left shift m by 1:", m << 1)                                           # Output: 10 (in binary: 1010)
+print("Right shift m by 1:", m >> 1)                                          # Output: 2 (in binary: 0010)
+
+#PYTHON OPERATOR PRECEDENCE:
+result = 3 + 4 * 2 / (1 - 5) ** 2 ** 3
+print("The result of the expression is:", result)                                     # Output: 3.0001220703125
+
+
+
+
+-> my expected output is same as visual studio given output:
+-> and the vscode given output followed below:
+
+->please check itt toooo
+
+                                                             
+The sum of a and b is: 15
+The difference of a and b is: 5
+The product of a and b is: 50
+The division of a by b is: 2.0
+The floor division of a by b is: 2
+The modulo of a by b is: 0
+The exponentiation of a to the power of b is: 100000
+After addition assignment, x is: 15
+After subtraction assignment, x is: 12
+After multiplication assignment, x is: 24
+After division assignment, x is: 6.0
+After floor division assignment, x is: 3.0
+After modulo assignment, x is: 0.0
+After exponentiation assignment, x is: 0.0
+Is p equal to q? False
+Is p not equal to q? True
+Is p greater than q? True
+Is p less than q? False
+Is p greater than or equal to q? True
+Is p less than or equal to q? False
+Is p greater than 5 and less than 15? True
+Is p less than 5 or greater than 15? False
+Is p not greater than 5? False
+Is 3 in the list [1, 2, 3, 4, 5]? True
+Is 6 not in the list [1, 2, 3, 4, 5]? True
+Is p the same object as q? False
+Is p not the same object as q? True
+Is r greater than 5 and less than 15? True
+Is r less than 5 or greater than 15? False
+Is r not greater than 5? False
+Is 3 in the list [1, 2, 3, 4, 5]? True
+Is 6 not in the list [1, 2, 3, 4, 5]? True
+Is t the same object as u? True
+Is t not the same object as u? False
+Bitwise AND of m and n: 1
+Bitwise OR of m and n: 7
+Bitwise XOR of m and n: 6
+Bitwise NOT of m: -6
+Left shift m by 1: 10
+Right shift m by 1: 2
+The result of the expression is: 3.0001220703125
