@@ -1,0 +1,52 @@
+#input
+#types
+''' 1.input()
+    2.int()
+    3.float()'''
+
+abs = input()
+print("The absolute value is: " ,abs)
+
+#string input
+name = input("Enter your name: ")
+print("Hello, " + name + "!")
+
+#string for integer input
+age = int(input("Enter your age: "))
+print("You are " + str(age) + " years old.")
+
+#string for float input
+height = float(input("Enter your height in meters: "))
+print("Your height is " + str(height) + " meters.")
+
+#intinput
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+sum = num1 + num2
+print("The sum of " + str(num1) + " and " + str(num2) + " is " + str(sum) + ".")
+
+#float input
+num3 = float(input("Enter the first number: "))
+num4 = float(input("Enter the second number: "))
+num5 = float(input("Enter the third number: "))
+average = (num3 + num4 + num5) / 3
+print("The average of " + str(num3) + ", " + str(num4) + ", and " + str(num5) + " is " + str(average) + ".")
+
+
+#output given by vscode
+
+  bhargavi
+The absolute value is:  bhargavi
+Enter your name: sowjanya
+Hello, sowjanya!
+Enter your age: 18
+You are 18 years old.
+Enter your height in meters: 75
+Your height is 75.0 meters.
+Enter the first number: 4
+Enter the second number: 8
+The sum of 4 and 8 is 12.
+Enter the first number: 12
+Enter the second number: 16
+Enter the third number: 20
+The average of 12.0, 16.0, and 20.0 is 16.0.
