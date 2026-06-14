@@ -303,4 +303,230 @@ Example 4: Coordinate Pairs
 
 Program Completed Successfully!
 
+# =====================================
+# STRINGS IN PYTHON
+# =====================================
+
+print("STRINGS IN PYTHON\n")
+
+# -------------------------------------
+# 1. Creating Strings
+# -------------------------------------
+
+name1 = 'Bhargavi'
+name2 = "Python"
+
+message = """
+Hello
+World
+Welcome
+"""
+
+print(name1)
+print(name2)
+print(message)
+
+# -------------------------------------
+# 2. String Indexing
+# -------------------------------------
+
+print("\nSTRING INDEXING")
+
+text = "Python"
+
+print("Positive Indexing")
+print(text[0])   # P
+print(text[1])   # y
+print(text[5])   # n
+
+print("\nNegative Indexing")
+print(text[-1])  # n
+print(text[-2])  # o
+print(text[-6])  # P
+
+# -------------------------------------
+# 3. String Slicing
+# -------------------------------------
+
+print("\nSTRING SLICING")
+
+word = "helloworld"
+
+print(word[0:5])     # hello
+print(word[5:10])    # world
+print(word[:5])      # hello
+print(word[5:])      # world
+print(word[::2])     # hlowrd
+print(word[::-1])    # reverse string
+
+# -------------------------------------
+# 4. String Concatenation
+# -------------------------------------
+
+print("\nSTRING CONCATENATION")
+
+first_name = "Soujanya"
+last_name = "Bhargavi"
+
+full_name = first_name + last_name
+print(full_name)
+
+full_name_space = first_name + " " + last_name
+print(full_name_space)
+
+# -------------------------------------
+# 5. String Length
+# -------------------------------------
+
+print("\nSTRING LENGTH")
+
+s = "Coding is fun!"
+print(len(s))
+
+# -------------------------------------
+# 6. String Methods
+# -------------------------------------
+
+print("\nSTRING METHODS")
+
+s = " Hello World "
+
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.title())
+print(s.strip())
+print(s.lstrip())
+print(s.rstrip())
+
+print("python".isalpha())
+print("12345".isdigit())
+print("Python123".isalnum())
+
+print("Hello World".replace("World", "Python"))
+
+print("banana".count("a"))
+
+print("Hello World".find("World"))
+
+# split()
+data = "apple,mango,orange"
+print(data.split(","))
+
+# join()
+items = ["Python", "Java", "C"]
+print(" - ".join(items))
+
+# startswith()
+print("Python".startswith("Py"))
+
+# endswith()
+print("Python".endswith("on"))
+
+# -------------------------------------
+# 7. String Formatting
+# -------------------------------------
+
+print("\nSTRING FORMATTING")
+
+name = "John"
+age = 25
+
+# Old Style Formatting
+print("My name is %s and I am %d years old." % (name, age))
+
+# format()
+print("My name is {} and I am {} years old.".format(name, age))
+
+# f-string
+print(f"My name is {name} and I am {age} years old.")
+
+# -------------------------------------
+# 8. Escape Sequences
+# -------------------------------------
+
+print("\nESCAPE SEQUENCES")
+
+print("Bhargavi\'s Pen")
+print("Hello\nWorld")
+print("Python\tProgramming")
+print("This is a backslash: \\")
+print("Double Quote: \"Python\"")
+print("Single Quote: \'Python\'")
+
+print("\nProgram Completed Successfully!")
+
+#output given by the vscode
+STRINGS IN PYTHON
+
+Bhargavi
+Python
+
+Hello
+World
+Welcome
+
+STRING INDEXING
+Positive Indexing
+P
+y
+n
+
+Negative Indexing
+n
+o
+P
+
+STRING SLICING
+hello
+world
+hello
+world
+hlowrd
+dlrowolleh
+
+STRING CONCATENATION
+SoujanyaBhargavi
+Soujanya Bhargavi
+
+STRING LENGTH
+14
+
+STRING METHODS
+HELLO WORLD
+hello world
+ hello world
+ Hello World
+Hello World
+Hello World
+ Hello World
+True
+True
+True
+Hello Python
+3
+6
+['apple', 'mango', 'orange']
+Python - Java - C
+True
+True
+
+STRING FORMATTING
+My name is John and I am 25 years old.
+My name is John and I am 25 years old.
+My name is John and I am 25 years old.
+
+ESCAPE SEQUENCES
+Bhargavi's Pen
+Hello
+World
+Python    Programming
+This is a backslash: \
+Double Quote: "Python"
+Single Quote: 'Python'
+
+Program Completed Successfully!
+
+
+
 
