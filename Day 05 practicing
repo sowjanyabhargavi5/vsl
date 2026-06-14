@@ -1,0 +1,104 @@
+# Input and Output Functions in Python
+# This program shows how input() and print() work.
+
+print("Welcome to my Python program!")
+
+# Taking input from the user
+name = input("Enter your name: ")
+
+# Displaying the entered value
+print("Hello,", name)
+
+# Taking another input
+college = input("Enter your college name: ")
+
+# Printing multiple values together
+print("Name:", name, "| College:", college)
+
+# Taking number input
+age = int(input("Enter your age: "))
+
+# Displaying the result
+print("You are", age, "years old.")
+
+# Using f-string (modern way of printing output)
+print(f"{name} studies at {college}.")
+
+# Using separator
+print("Python", "Java", "C", sep=" -> ")
+
+# Using end parameter
+print("Learning", end=" ")
+print("Python")
+
+# Small calculation example
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+sum_of_numbers = num1 + num2
+ 
+print("Sum =", sum_of_numbers)
+
+print("\nProgram Finished Successfully!").                                                                # Input and Output Functions in Python
+# This program shows how input() and print() work.
+
+print("Welcome to my Python program!")
+
+# Taking input from the user
+name = input("Enter your name: ")
+
+# Displaying the entered value
+print("Hello,", name)
+
+# Taking another input
+college = input("Enter your college name: ")
+
+# Printing multiple values together
+print("Name:", name, "| College:", college)
+
+# Taking number input
+age = int(input("Enter your age: "))
+
+# Displaying the result
+print("You are", age, "years old.")
+
+# Using f-string (modern way of printing output)
+print(f"{name} studies at {college}.")
+
+# Using separator
+print("Python", "Java", "C", sep=" -> ")
+
+# Using end parameter
+print("Learning", end=" ")
+print("Python")
+
+# Small calculation example
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+sum_of_numbers = num1 + num2
+
+print("Sum =", sum_of_numbers)
+
+print("\nProgram Finished Successfully!").            #output given by the vscode    Welcome to my Python program!
+
+Enter your name: Souzan
+Hello, Souzan
+
+Enter your college name: ABC College
+Name: Souzan | College: ABC College
+
+Enter your age: 20
+You are 20 years old.
+
+Souzan studies at ABC College.
+
+Python -> Java -> C
+
+Learning Python
+
+Enter first number: 10
+Enter second number: 20
+Sum = 30
+
+Program Finished Successfully!
