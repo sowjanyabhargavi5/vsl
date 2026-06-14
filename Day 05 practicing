@@ -80,7 +80,9 @@ sum_of_numbers = num1 + num2
 
 print("Sum =", sum_of_numbers)
 
-print("\nProgram Finished Successfully!").            #output given by the vscode    Welcome to my Python program!
+print("\nProgram Finished Successfully!")
+
+#output given by the vscode    Welcome to my Python program!
 
 Enter your name: Souzan
 Hello, Souzan
@@ -102,3 +104,110 @@ Enter second number: 20
 Sum = 30
 
 Program Finished Successfully!
+
+
+
+
+
+# =====================================
+# Conditional Statements in Python
+# if, if-else and if-elif-else
+# =====================================
+
+print("CONDITIONAL STATEMENTS IN PYTHON\n")
+
+# -------------------------------------
+# 1. if Statement
+# -------------------------------------
+# The code inside the if block runs only
+# when the condition is True.
+
+age = 20
+
+print("Example 1: if Statement")
+
+if age >= 18:
+    print("You are eligible to vote.")
+
+print()  # Empty line
+
+# -------------------------------------
+# 2. if-else Statement
+# -------------------------------------
+# if block executes when condition is True.
+# else block executes when condition is False.
+
+print("Example 2: if-else Statement")
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 35:
+    print("Result: Pass")
+else:
+    print("Result: Fail")
+
+print()
+
+# -------------------------------------
+# 3. if-elif-else Statement
+# -------------------------------------
+# Used when there are multiple conditions.
+
+print("Example 3: if-elif-else Statement")
+
+percentage = int(input("Enter your percentage: "))
+
+if percentage >= 90:
+    print("Grade: A")
+elif percentage >= 75:
+    print("Grade: B")
+elif percentage >= 50:
+    print("Grade: C")
+elif percentage >= 35:
+    print("Grade: D")
+else:
+    print("Grade: Fail")
+
+print()
+
+# -------------------------------------
+# Real-Life Example
+# -------------------------------------
+
+print("Example 4: Age Category")
+
+user_age = int(input("Enter your age: "))
+
+if user_age < 13:
+    print("You are a Child")
+elif user_age < 20:
+    print("You are a Teenager")
+elif user_age < 60:
+    print("You are an Adult")
+else:
+    print("You are a Senior Citizen")
+
+print("\nProgram Completed Successfully!")
+
+
+#output given by the vscode
+CONDITIONAL STATEMENTS IN PYTHON
+
+Example 1: if Statement
+You are eligible to vote.
+
+Example 2: if-else Statement
+Enter your marks: 60
+Result: Pass
+
+Example 3: if-elif-else Statement
+Enter your percentage: 82
+Grade: B
+
+Example 4: Age Category
+Enter your age: 19
+You are a Teenager
+
+Program Completed Successfully!
+
+
